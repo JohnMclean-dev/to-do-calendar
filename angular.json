@@ -24,6 +24,8 @@
             ],
             "styles": [
               "src/styles.css"
+              "node_modules/@fullcalendar/common/main.css",
+              "node_modules/@fullcalendar/daygrid/main.css"
             ],
             "scripts": []
           },
@@ -97,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "37625876-7065-436d-b56e-e9ef8ec432ae"
   }
 }

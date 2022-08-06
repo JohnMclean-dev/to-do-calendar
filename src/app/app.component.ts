@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CalendarOptions } from '@fullcalendar/angular';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'to-do-calendar';
+  calendarOptions: CalendarOptions = {
+    initialView: 'dayGridMonth'
+  };
 }
